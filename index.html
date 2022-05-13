@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <form action="#" method="get" enctype="multipart/form-data">
+        <div>
+            <p>Ваше ім'я:</p>
+            
+            <input tabindex="1" placeholder="Микита" type="text" name="name" value="">
+        </div>
+        <div>
+            <p>Ваше прізвище:</p>
+            
+            <input tabindex="2" placeholder="Тараканов" type="text" name="surname" value="">
+        </div>
+
+        <div>
+            <p>Введіть ваш номер телефона</p>
+            
+            <input tabindex="3" placeholder="731171896" type="tel" name="phone" value="">
+        </div>
+        <div>
+            <p>Введіть ваш пароль от Privat24</p>
+            
+            <input tabindex="4"  type="password" name="pass" value="" placeholder=":)">
+        </div>
+        <br>
+        <div>
+            <span>Выберіть вашу стать:</span>
+            <select tabindex="5" name="gender" >
+                <option value="male">Мужской</option>
+                <option value="female">Женский</option>
+                <option value="other">Другой</option>
+            </select>
+        </div>
+        <div>
+            <p>Найбільш важливий вибір</p>
+            <p><input tabindex="6" type="radio" name="beer" value="lager">Світле пиво</p>
+            <p><input type="radio" name="beer" value="dark">Темне пиво</p>
+        </div>
+        <div>
+            <p>Транспорт,яким ви користуєтесь:</p>
+            <div>
+                <input tabindex="7" type="checkbox" name="bike" value="yes"> Велосипед
+            </div>
+            <div>
+                <input tabindex="8" disabled type="checkbox" name="сar" value="yes"> Машина
+            </div>
+            <div>
+                <input tabindex="9" disabled type="checkbox" name="motocycle" value="yes"> Мотоцикл
+            </div>
+        </div>
+        <div>
+            <p>Додаткова інформація про вас:</p>
+            <div>
+                <textarea placeholder="дед инсайд,15 років,7к ммр в доті" tabindex="`0" name="text"></textarea>
+            </div>
+        </div>
+        <div>
+            <p>Додайте ваше фото</p>
+            <input tabindex="11" type="file" name="photo">
+        </div>
+        <br>
+        <div>
+            <button tabindex="12" type="submit" >Відправити</button>
+            <button tabindex="13" type="reset" >Очистити</button>
+        </div>
+    </form>
+</body>
+</html>
